@@ -1,0 +1,152 @@
+
+* {
+  box-sizing: border-box;
+    border-color:#ffffff
+
+}
+
+/* Create three equal columns that floats next to each other */
+.col-md-3{
+  float: left;
+  width: 100%;
+  padding: 25px 16px 32px;
+  height: 650px; /* Should be removed. Only for demonstration */
+  font-size: Lato,sans-serif!important;
+}
+.col-md-6 {
+  float: left;
+  width: 60%;
+  height: 1000px; /* Should be removed. Only for demonstration */
+   font-family: Lato,sans-serif!important;
+  box-shadow: 0 12px 8px 0 rgb(22 45 61 / 4%), 0 1px 4px 0 rgb(22 45 61 / 10%);  
+  cursor: pointer;
+      vertical-align: middle;
+
+border-radius: 6px;
+    padding: 25px 32px 32px;
+  }
+.col-lg-3 {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 1000px; /* Should be removed. Only for demonstration */
+}
+
+.button{
+  border-color:#ffffff;
+width:100%;
+float:left;
+color:black;
+   font-family: Lato,sans-serif!important;
+
+    padding: 16px;
+background-color: #ffffff;
+margin-right: 1em;
+  text-align: left;
+  cursor: pointer;
+}
+i {
+  display: inline-block;
+  margin-right: 1em;
+  font-size:20px ;
+  color:lightgrey;
+}
+div.font{
+    font-family:verdana;
+    color: black;
+}
+div.col-md-6 {
+  text-align: left;
+  text-indent: 10px;
+      vertical-align: middle;
+.font {
+    vertical-align: middle;
+
+}
+}
+div.col-md-3{
+  text-align: left;
+}
+div.col-lg-3{
+  text-align: left;
+
+}
+div.h3 {}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+  .column4{
+      cursor: pointer;
+    font-family:verdana;
+       vertical-align: middle;
+
+
+     width:100%;
+  float:left;
+    padding: 10px;
+background-color:#F8F9F9;
+height: -20%;
+color:black;
+  }
+
+
+/* Style the active class, and buttons on mouse-over */
+.active  {
+  background-color:#AED6F1 ;
+
+  color: black;
+}
+.button:hover{
+  background-color:#F8F9F9;
+  color: black;
+}
+.column4:hover{
+  background-color:lavender;
+  color: black;
+}
+.phn:hover{
+  background-color:lavender;
+  color: blue;
+}
+.firstimage{
+
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.image {
+  
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.time{
+  width: 55%;
+  margin-bottom: 10px;
+
+    padding: 0 16px 12px 0;
+
+
+
+
+}
+ 
+ 
+
+
+div.c {
+  font-family:Lato,sans-serif!important;
+    }
+    .calendar__day{
+      margin-right: 1em;
+      font-size: 18px;
+      font-family: lavender;
+      color: black;
+    }
